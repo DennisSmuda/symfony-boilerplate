@@ -1,0 +1,7 @@
+photo_site:
+    resource: "@PhotoSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
