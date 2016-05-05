@@ -1,4 +1,0 @@
-services:
-#    photo_site.example:
-#        class: PhotoSiteBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]

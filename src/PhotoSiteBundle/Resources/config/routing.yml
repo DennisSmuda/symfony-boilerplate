@@ -1,3 +1,0 @@
-photo_site_homepage:
-    path:     /
-    defaults: { _controller: PhotoSiteBundle:Default:index }
