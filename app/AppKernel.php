@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new PhotoSiteBundle\PhotoSiteBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+            new SiteBundle\SiteBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
