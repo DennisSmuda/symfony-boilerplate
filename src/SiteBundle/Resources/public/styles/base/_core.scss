@@ -2,9 +2,21 @@
 html {
   font-family: 'Open Sans';
   font-size: 15px;
-  background-color: beige;
 }
 
 body {
   background-color: white;
+}
+
+h1 {
+  color: black;
+  @include transition(all 0.3s);
+
+  &:hover {
+    color: yellow;
+  }
+
+  @include max-screen(600px) {
+    color: beige;
+  }
 }

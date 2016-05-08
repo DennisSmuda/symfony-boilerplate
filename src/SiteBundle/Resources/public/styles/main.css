@@ -6,10 +6,20 @@ html {
 
 html {
   font-family: 'Open Sans';
-  font-size: 15px;
-  background-color: beige; }
+  font-size: 15px; }
 
 body {
   background-color: white; }
+
+h1 {
+  color: black;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  h1:hover {
+    color: yellow; }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      color: beige; } }
 
 /*# sourceMappingURL=main.css.map*/

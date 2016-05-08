@@ -1,2 +1,2 @@
 
-console.log('hello kjhkjh');
+console.log('Test alert');

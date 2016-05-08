@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="format-detection" content="telephone=no">
 
-    <title>{% block title %}Photo Site{% endblock %}</title>
+    <title>{% block title %}TITLE{% endblock %}</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}?v=2"/>
 
@@ -42,7 +42,7 @@
 
 
 {% block javascripts %}
-    {% javascripts '@SiteBundle/Resources/public/src/*' %}
+    {% javascripts '@SiteBundle/Resources/public/src/browser-bundle.js' %}
     <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}

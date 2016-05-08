@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -w",
     "server": "php bin/console server:run",
-    "app": "npm run build | npm run server"
+    "start": "npm run build | npm run server"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,11 @@
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "bourbon-neat": "^1.7.4",
+    "jquery": "^2.2.3",
+    "sass-mediaqueries": "^1.6.1"
   }
 }

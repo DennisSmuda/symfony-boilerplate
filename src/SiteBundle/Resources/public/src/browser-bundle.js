@@ -54,7 +54,7 @@
 
 	'use strict';
 	
-	console.log('hello kjhkjh');
+	console.log('Test alert');
 
 /***/ },
 /* 2 */
