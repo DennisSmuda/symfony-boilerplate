@@ -6,9 +6,10 @@ html {
 
 html {
   font-family: 'Open Sans';
-  font-size: 15px; }
+  font-size: 15px;
+  background-color: beige; }
 
 body {
   background-color: white; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map*/

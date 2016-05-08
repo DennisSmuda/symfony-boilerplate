@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAGE,IAAK;EACH,UAAU,EAAE,UAAU;;AAItB,sBAEU;EACR,UAAU,EAAE,OAAO;;ACVzB,IAAK;EACH,WAAW,EAAE,WAAW;EACxB,SAAS,EAAE,IAAI;;AAGjB,IAAK;EACH,gBAAgB,EAAE,KAAK",
-"sources": ["../node_modules/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss","base/_core.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sources":["webpack:///webpack:///src/SiteBundle/Resources/public/styles/Users/dennissmuda/Sites/winterisda/personal-page/src/SiteBundle/Resources/public/~/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss","webpack:///webpack:///src/SiteBundle/Resources/public/styles/Users/dennissmuda/Sites/winterisda/personal-page/src/SiteBundle/Resources/public/styles/base/_core.scss"],"names":[],"mappings":"AAGE;EACE,uBAAuB,EACxB;;AAED;EAII,oBAAoB,EACrB;;ACXL;EACE,yBAAyB;EACzB,gBAAgB;EAChB,wBAAwB,EACzB;;AAED;EACE,wBAAwB,EACzB","file":"src/SiteBundle/Resources/public/styles/main.css","sourcesContent":["@charset \"UTF-8\";\n\n@if $border-box-sizing == true {\n  html { // http://bit.ly/1qk2tVR\n    box-sizing: border-box;\n  }\n\n  * {\n    &,\n    &::after,\n    &::before {\n      box-sizing: inherit;\n    }\n  }\n}\n\n\n\n/** WEBPACK FOOTER **\n ** webpack:///src/SiteBundle/Resources/public/styles/Users/dennissmuda/Sites/winterisda/personal-page/src/SiteBundle/Resources/public/~/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss\n **/","\nhtml {\n  font-family: 'Open Sans';\n  font-size: 15px;\n  background-color: beige;\n}\n\nbody {\n  background-color: white;\n}\n\n\n\n/** WEBPACK FOOTER **\n ** webpack:///src/SiteBundle/Resources/public/styles/Users/dennissmuda/Sites/winterisda/personal-page/src/SiteBundle/Resources/public/styles/base/_core.scss\n **/"],"sourceRoot":""}
