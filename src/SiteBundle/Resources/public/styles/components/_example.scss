@@ -2,10 +2,13 @@ body {
   background-color: $light-gray;
 }
 
+main {
+  padding: 1rem;
+}
 
 .main__inner {
   max-width: 640px;
-  margin: auto;
+  margin: 4rem auto;
 }
 
 h1 {
@@ -19,7 +22,7 @@ p {
   line-height: 1.4;
 
   @include screen-max(phone) {
-    background-color: blue;
+    
   }
 
   @include links($blue-jeans-shade, $aqua, $blue-jeans, $blue-jeans);

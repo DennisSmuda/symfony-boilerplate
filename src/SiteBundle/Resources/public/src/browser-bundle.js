@@ -54,7 +54,24 @@
 
 	'use strict';
 	
-	console.log('Test alert');
+	$(document).ready(function () {
+	  console.log('Document ready');
+	
+	  // Menu code
+	  var $hamburger = $('.hamburger');
+	  var $mobileNav = $('nav.mobile');
+	  var $mobileOverlay = $('.mobile-menu-overlay');
+	  $hamburger.on('click', function () {
+	    console.log('butz');
+	    $mobileNav.toggleClass('hidden');
+	    $mobileOverlay.toggleClass('hidden');
+	  });
+	
+	  $mobileOverlay.on('click', function () {
+	    $mobileOverlay.toggleClass('hidden');
+	    $mobileNav.toggleClass('hidden');
+	  });
+	});
 
 /***/ },
 /* 2 */
