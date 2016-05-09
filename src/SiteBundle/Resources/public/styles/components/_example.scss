@@ -1,0 +1,26 @@
+body {
+  background-color: $light-gray;
+}
+
+
+.main__inner {
+  max-width: 640px;
+  margin: auto;
+}
+
+h1 {
+  color: $bittersweet;
+  @include transition(all 0.3s);
+}
+
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+
+  @include screen-max(phone) {
+    background-color: blue;
+  }
+
+  @include links($blue-jeans-shade, $aqua, $blue-jeans, $blue-jeans);
+}

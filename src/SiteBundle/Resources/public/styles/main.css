@@ -39,28 +39,31 @@ html {
       font-size: 10px; } }
 
 body {
-  background-color: white; }
+  background-color: #F5F7FA; }
+
+.main__inner {
+  max-width: 640px;
+  margin: auto; }
 
 h1 {
-  color: black;
+  color: #FC6E51;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
-  h1:after {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 0;
-    width: 0;
-    border-left: black solid transparent;
-    border-right: black solid transparent;
-    border-top: black solid 10px; }
-  @media only screen and (max-width: 600px) {
-    h1 {
-      color: beige; } }
 
-@media only screen and (max-width: 400px) {
-  p {
-    background-color: yellow; } }
+p {
+  font-size: 1.2rem;
+  line-height: 1.4; }
+  @media only screen and (max-width: 600px) {
+    p {
+      background-color: blue; } }
+  p a {
+    color: #4A89DC; }
+    p a:visited {
+      color: #5D9CEC; }
+    p a:hover {
+      color: #4FC1E9; }
+    p a:active {
+      color: #5D9CEC; }
 
 /*# sourceMappingURL=main.css.map*/

@@ -11,6 +11,10 @@ $tablet-wide : 1024px;
 $desktop     : 1250px;
 $desktop-wide: 1440px;
 
+$breakpoints: (
+  'phone': 600px
+);
+
 /**
  * Colors
  */
