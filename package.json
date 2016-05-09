@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -w",
     "server": "php bin/console server:run",
-    "start": "npm run build | npm run server"
+    "start": "npm run server | npm run build"
   },
   "repository": {
     "type": "git",

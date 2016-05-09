@@ -1,0 +1,28 @@
+/**
+ * Responsive Text
+ */
+
+html {
+  font-family: 'Open Sans';
+  font-size: 15px;
+
+  @include max-screen(1000px) {
+    font-size: 14px;
+  }
+
+  @include max-screen(800px) {
+    font-size: 13px;
+  }
+
+  @include max-screen(600px) {
+    font-size: 12px;
+  }
+
+  @include max-screen(500px) {
+    font-size: 11px;
+  }
+
+  @include max-screen(400px) {
+    font-size: 10px;
+  }
+}

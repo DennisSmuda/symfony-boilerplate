@@ -3,6 +3,10 @@
 @import './node_modules/bourbon-neat/app/assets/stylesheets/neat';
 @import './node_modules/sass-mediaqueries/media-queries';
 
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/shapes';
+@import 'base/typo';
 @import 'base/core';
 
 

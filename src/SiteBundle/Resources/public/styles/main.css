@@ -4,9 +4,39 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/**
+ * Breakpoints
+ */
+/**
+ * Colors
+ */
+/**
+ * Specials
+ */
+/**
+ * Shapes
+ */
+/**
+ * Responsive Text
+ */
 html {
   font-family: 'Open Sans';
   font-size: 15px; }
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 14px; } }
+  @media only screen and (max-width: 800px) {
+    html {
+      font-size: 13px; } }
+  @media only screen and (max-width: 600px) {
+    html {
+      font-size: 12px; } }
+  @media only screen and (max-width: 500px) {
+    html {
+      font-size: 11px; } }
+  @media only screen and (max-width: 400px) {
+    html {
+      font-size: 10px; } }
 
 body {
   background-color: white; }
@@ -16,10 +46,21 @@ h1 {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
-  h1:hover {
-    color: yellow; }
+  h1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: black solid transparent;
+    border-right: black solid transparent;
+    border-top: black solid 10px; }
   @media only screen and (max-width: 600px) {
     h1 {
       color: beige; } }
+
+@media only screen and (max-width: 400px) {
+  p {
+    background-color: yellow; } }
 
 /*# sourceMappingURL=main.css.map*/

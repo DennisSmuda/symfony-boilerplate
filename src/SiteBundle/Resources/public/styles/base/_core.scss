@@ -1,9 +1,3 @@
-
-html {
-  font-family: 'Open Sans';
-  font-size: 15px;
-}
-
 body {
   background-color: white;
 }
@@ -12,11 +6,19 @@ h1 {
   color: black;
   @include transition(all 0.3s);
 
-  &:hover {
-    color: yellow;
+  &:after {
+    @include pseudo('');
+    @include triangle(black, 10px, down);
   }
 
   @include max-screen(600px) {
     color: beige;
+  }
+}
+
+
+p {
+  @include max-screen(#{$phone}) {
+    background-color: yellow;
   }
 }
