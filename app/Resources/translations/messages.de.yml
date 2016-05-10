@@ -1,0 +1,14 @@
+site:
+  title: 'Symfony Boilerplate'
+nav:
+  home: 'Home'
+  about: 'Über Uns'
+  projects: 'Projekte'
+  contact: 'Kontakt'
+headers:
+  aboutus: 'Über Uns'
+  products: 'Produkte'
+  logistics: 'Logistik'
+  team: 'Team'
+  locations: 'Standorte'
+  contact: 'Kontakt'

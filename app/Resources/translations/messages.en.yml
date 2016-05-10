@@ -1,0 +1,9 @@
+
+site:
+  title: 'Symfony Boilerplate'
+
+nav:
+  home: 'Home'
+  about: 'About'
+  projects: 'Projects'
+  contact: 'Contact'
