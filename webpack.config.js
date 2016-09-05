@@ -8,9 +8,9 @@ module.exports = {
     modulesDirectories: ['node_modules', 'scripts', 'stylesheets'],
     extensions: ['', '.js', '.scss'],
   },
-  entry: ['./src/SiteBundle/Resources/public/src/index.js', './src/SiteBundle/Resources/public/styles/main.scss'],
+  entry: ['./src/SiteBundle/Resources/src/js/index.js', './src/SiteBundle/Resources/src/scss/main.scss'],
   output: {
-    filename: 'src/SiteBundle/Resources/public/src/browser-bundle.js'
+    filename: 'src/SiteBundle/Resources/public/js/browser-bundle.js'
   },
   devtool: 'source-map',
   module: {

@@ -1,0 +1,55 @@
+/**
+ * Specials
+ */
+
+@mixin flexin($dir, $justify, $align) {
+  -js-display: flex;
+  @include display(flex);
+  @include flex-direction($dir);
+  @include justify-content($justify);
+  @include align-items($align);
+}
+
+
+@mixin pseudo($content) {
+  content: $content;
+  display: block;
+  position: absolute;
+}
+
+@mixin position-absolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  position: absolute;
+}
+
+@mixin inner-middle($max-width) {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+@mixin links($link, $hover, $active, $visit) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@mixin screen-max($breakpoint) {
+
+  @if map-has-key($breakpoints, $breakpoint) {
+    @include max-screen(map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}

@@ -1,7 +1,13 @@
-Standard Boilerplate for a Symfony Project
-==========================================
+# Standard Boilerplate for a Symfony Project
 
-Inlcudes jquery, remodal, bourbon, neat, sass-mediaqueries
+__Inlcudes__:
+
+- barba
+- jquery
+- remodal  
+- bourbon
+- neat
+- sass-mediaqueries
 
 
 ## Start

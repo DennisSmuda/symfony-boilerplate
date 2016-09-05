@@ -10,4 +10,8 @@ class DefaultController extends Controller
     {
         return $this->render('SiteBundle:Default:index.html.twig');
     }
+
+    public function aboutAction() {
+        return $this->render('@Site/Default/about.html.twig');
+    }
 }

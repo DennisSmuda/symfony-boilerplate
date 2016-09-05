@@ -1,0 +1,43 @@
+
+header {
+  padding: 1rem;
+  background-color: $ruby;
+  color: $light-gray;
+  @include flexin(row, space-between, center);
+}
+
+
+header h2 {
+  display: inline-block;
+
+
+}
+
+header nav.desktop {
+
+
+}
+
+nav.desktop ul {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+    @include links($light-gray, $white, $light-gray, $light-gray);
+
+    a:hover {
+      text-decoration: none;
+    }
+
+  }
+}
+
+
+// Mobile Shite..
+header nav.mobile {
+  display: none;
+}
+
+header .hamburger-container {
+  display: none;
+}
